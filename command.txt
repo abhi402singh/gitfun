@@ -1,0 +1,122 @@
+// add all files
+git add .
+
+
+// revert all uncommit changes---
+git checkout -- .
+
+
+// return to the head in a branch/ master branch
+git master
+
+// view commits but not commit changes here bcoz it will not the head on the branch
+git checkout commit_id
+
+// revert the commit_id as a head of the branch
+git reset --hard commit_id
+
+// commit
+git commit -m 'message'
+
+git status
+
+// displlay all branch
+git branch
+
+// add new branch
+git checkout -b branch_name
+
+// select branch
+git checkout branch_name
+
+// merge another branch to current sbranch
+git merge another_branch
+
+// delete the branch
+git branch -D branch_name
+
+ // display commits
+git log
+
+
+
+// see remote repo
+git remote
+git remote -v
+
+// see repo relations
+git remote -r
+
+// push the code on repo
+git push -u origin master
+
+
+// pull from server
+1. git fetch
+2. git merge origin/master
+3. git pull
+
+// both command do same stuff
+1+2 == 3
+
+
+// remove the remote repo from local git
+git remote rm origin
+
+
+git remote add origin git@github.com:abhi402singh/node-rest-api.git
+
+
+
+
+
+
+
+
+
+
+// add non-commit code in stash
+git stash
+
+// add non-commit code in stash with message
+git stash push -m 'message'
+
+// display stash list
+git stash list
+
+// revert the last non-commit code added in stash using index number like 0,1,2,3,4
+git stash apply index
+
+// remove the stash from the stash list using tghe index number
+git stash drop index
+
+// add the stash into the code and remove it from the stash list
+git stash pop index
+
+// clear the stash
+git stash clear
+
+
+
+
+
+
+
+git merge --squalsh branch_name
+git commin -m 'message'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
